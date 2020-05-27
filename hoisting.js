@@ -7,17 +7,18 @@ function callMe() {
   console.log("and this is crazy..");
   console.log("but here's my number..");
   console.log("so call me");
-  return lyric;  
+  return lyric;
 }
 
 
 function crazy() {
-  // fix the code in here:
-  thisIsCrazy();
-
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  // fix the code in here:
+  thisIsCrazy();
+
+
 }
 
 function sayMyName() {
